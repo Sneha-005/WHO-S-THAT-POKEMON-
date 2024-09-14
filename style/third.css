@@ -1,0 +1,43 @@
+body{
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.guess{
+    color:brown;
+    text-align: center;
+    padding-top: 5%;
+    font-family: fantasy;
+    font-size: 250%;
+}
+.img{
+    padding-left: 35%;
+    padding-right: 30%;
+    padding-top: 2%;
+}
+.search{
+    padding-left: 40%;
+    padding-right: 20%;
+    padding-top: 1%; 
+    padding-bottom: 1%;
+}
+#b{
+    background-color: rgb(68, 93, 185);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.b{
+    background-color: rgb(68, 93, 185);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

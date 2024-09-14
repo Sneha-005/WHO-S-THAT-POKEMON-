@@ -1,0 +1,19 @@
+.instruct{
+    background-image: url('../images/bg.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: 700;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.pick{
+    margin-left: 45px;
+    margin-right: 45px;
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    cursor: pointer;
+}

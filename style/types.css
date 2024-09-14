@@ -1,0 +1,59 @@
+body{
+    background-image: url('../images/typesbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+}
+.name{
+    font-family:fantasy;
+    text-align: center;
+    font-size: 100px;
+    color: rgba(50, 38, 102, 0.921);
+}
+.image:hover {
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5); 
+}
+.image{
+    transition: transform .2s;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.data-subheader{
+    list-style: none;
+    min-width: 150px;
+    text-align: left;
+    background-color: rgb(67, 67, 141);
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    color: #fff;
+
+}
+.data-header{
+    list-style: none;
+    min-width: 150px;
+    text-align: left;
+    background-color: rgb(67, 67, 141);
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    color: #fff;
+
+}
+.data-info{
+    padding-left: 0;
+    display: grid;
+    max-width: 950px;
+    grid-template: repeat(5, 1fr) / repeat(6, 1fr);
+    grid-template-rows: min-content 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: row;
+}
+.text{
+    color: rgb(9, 40, 63);
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
