@@ -11,24 +11,12 @@
     />
 </head>
 <body>
+    <script src="../js/sample.js">    </script>
     <div class="guess">GUESS THE NAME</div>
     <div class="img"><img src="../images/lapras shadow.png" alt=""></div>
-    <body>
-      <div class="search">
-          <input type="text" id="name"/>
-          <button onclick="runCheck()" id="b" placeholder="Enter in small letters">SUBMIT</button>
-        </div>
-  
+        <div class="search">
+            <input type="text" id="name" placeholder="enter in small letter"/>
+            <button onclick="runCheck()" id="b">SUBMIT</button>
+          </div>
   </body>
-  <script>
-      function runCheck(){
-          var data= document.getElementById("name").value;
-          if(data=="lapras"){
-              location.replace("lapras.html");
-          }
-          else{
-              location.replace("loss.html");
-          }
-      }
-  </script>
 </html>
