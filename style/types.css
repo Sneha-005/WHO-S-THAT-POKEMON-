@@ -70,5 +70,7 @@ body{
 .button{
     display: inline-flex;
     position:absolute;
-  
+}
+.data_info li{
+     list-style-type: none;
 }
