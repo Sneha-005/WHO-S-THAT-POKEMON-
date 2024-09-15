@@ -28,11 +28,11 @@ body{
 }
 img{
     width: 29em;
-    height:20em;
+    height:10em;
 }
 @media (max-width:600px) {
     img{
         width: 10em;
-        height: 15em
+        height: 8em
     }
 }
