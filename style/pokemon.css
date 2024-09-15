@@ -3,31 +3,37 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: content-box;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 70em;
     flex-direction: column;
     
 }
 .home_page{
     color: aliceblue;
-    font-size: 70px;
+    font-size: 5em;
+    align-items: center;
 }
 .button{
   background-color: #045aaa;
   border: none;
-  padding: 15px 32px;
+  padding: 1vw 3vh;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 2em;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 1rem;
   
 }
 .button a{
   color: aliceblue;
   text-decoration: none;
+}
+@media (max-width:600px) {
+  .home_page{
+    font-size: 2em;
+  }
 }
