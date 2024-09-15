@@ -2,32 +2,40 @@ body{
     background-image: url('../images/typesbg.png');
     background-repeat: repeat;
     background-size: cover;
-    padding-left: 10%;
-    padding-bottom: 39%;
+    background-origin: content-box;
+    background-position: center;
+    width:100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 .name{
     font-family:fantasy;
     text-align: center;
     font-size: 100px;
-    color: rgba(50, 38, 102, 0.921);
+    color: rgba(24, 20, 41, 0.921);
 }
-.image:hover {
+img:hover {
         -ms-transform: scale(1.5);
         -webkit-transform: scale(1.5);
         transform: scale(1.5); 
 }
 .image{
+    margin-left: 60%;
+}
+img{
+    margin-top: 10%;
     transition: transform .2s;
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
+    width: 28em;
+    height: 17em;
 }
 .data-subheader{
     list-style: none;
-    min-width: 150px;
+    min-width: 10em;
     text-align: left;
     background-color: rgb(44, 92, 121);
-    padding: 5px;
+    margin-left: 20%;
+    padding: 4px;
     display: block;
     border-radius: 5px;
     color: #fff;
@@ -35,10 +43,11 @@ body{
 }
 .data-header{
     list-style: none;
-    min-width: 150px;
+    min-width: 10em;
     text-align: left;
     background-color: rgb(67, 135, 141);
-    padding: 5px;
+    margin-left: 20%;
+    padding: 4px;
     display: block;
     border-radius: 5px;
     color: #fff;
@@ -47,10 +56,10 @@ body{
 .data-info{
     padding-left: 0;
     display: grid;
-    max-width: 950px;
+    max-width: 35em;
     grid-template: repeat(5, 1fr) / repeat(6, 1fr);
     grid-template-rows: min-content 1fr;
-    grid-gap: 10px;
+    grid-gap: 2em;
     grid-auto-flow: row;
 }
 .text{
@@ -70,7 +79,35 @@ body{
 .button{
     display: inline-flex;
     position:absolute;
+  
 }
 .data-info li{
-     list-style-type: none;
+    list-style-type: none;
+}
+@media (max-width:600px) {
+    .name{
+        font-size: 4em;
+    }
+    .image{
+        margin-left: 25%;
+    }
+    img{
+        width:14em;
+        height:10em;
+    }
+    .text{
+        margin-top: 10%;
+    }
+    img:hover {
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5); 
+    }
+    .data-subheader{
+        min-width: 6em;
+    }
+    .data-header{
+        min-width: 6em;
+    }
+
 }
