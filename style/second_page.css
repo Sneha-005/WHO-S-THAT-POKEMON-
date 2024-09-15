@@ -27,12 +27,12 @@ body{
     cursor: pointer;
 }
 img{
-    width: 9em;
+    width: 22em;
     height:10em;
 }
 @media (max-width:600px) {
     img{
-        width: 1em;
-        height: 0.5em
+        width: 3em;
+        height: 1em
     }
 }
