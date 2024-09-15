@@ -27,7 +27,7 @@ body{
     cursor: pointer;
 }
 img{
-    width: 29em;
+    width: 23em;
     height:10em;
 }
 @media (max-width:600px) {
