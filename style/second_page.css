@@ -19,7 +19,8 @@ body{
     
 }
 .pick{
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     margin-left: 2em;
     margin-right: 2em;
     border-color: black;
