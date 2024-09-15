@@ -1,0 +1,42 @@
+body{
+    background-image: url('../images/bg.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-origin: content-box;
+    background-position: center;
+    width:100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.guess{
+    color:brown;
+    text-align: center;
+    padding-top: 1em;
+    font-family: fantasy;
+    font-size: 4em;
+}
+.play{
+    padding-left: 40em;
+    padding-right: 2em;
+    padding-top: 0.5em; 
+    padding-bottom: 0.1em;
+}
+.b{
+    background-color: rgb(68, 93, 185);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+@media (max-width:600px) {
+    .play{
+        padding-left: 9em;
+        padding-right: 2em;
+        padding-top: 2em; 
+        padding-bottom: 9em;
+    }    
+}
