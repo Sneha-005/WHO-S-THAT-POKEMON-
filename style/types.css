@@ -27,7 +27,7 @@ img{
     margin-top: 10%;
     transition: transform .2s;
     width: 28em;
-    height: 17em;
+    height: 25em;
 }
 .data-subheader{
     list-style: none;
@@ -61,6 +61,7 @@ img{
     grid-template-rows: min-content 1fr;
     grid-gap: 2em;
     grid-auto-flow: row;
+    text-align: center;
 }
 .text{
     color: rgb(2, 11, 17);
@@ -93,7 +94,7 @@ img{
     }
     img{
         width:14em;
-        height:10em;
+        height:15em;
     }
     .text{
         margin-top: 10%;
@@ -105,9 +106,11 @@ img{
     }
     .data-subheader{
         min-width: 6em;
+        text-align: center;
     }
     .data-header{
         min-width: 6em;
+        text-align: center;
     }
 
 }
